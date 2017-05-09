@@ -31,6 +31,12 @@ if (right) {
 	facingLeft = false;
 }
 
+// Go back to perch state
 if (place_meeting(x, y-1, obj_Collision) && up) {
 	state = bat.perch;
+}
+
+// Go to attack state
+if (spaceBar) {
+	state = bat.attack;
 }
