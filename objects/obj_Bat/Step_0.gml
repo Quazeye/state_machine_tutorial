@@ -3,7 +3,7 @@
 down = keyboard_check(vk_down);
 up = keyboard_check(vk_up);
 left = keyboard_check(vk_left);
-right = keyboard_check(vk_right);
+right = keyboard_check(vk_right); 
 
 switch (state) {
 
