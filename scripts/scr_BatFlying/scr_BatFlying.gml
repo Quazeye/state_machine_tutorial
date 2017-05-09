@@ -23,10 +23,12 @@ if (down) {
 
 if (left) {
 	x = x - moveSpeed;
+	facingLeft = true;
 }
 
 if (right) {
 	x = x + moveSpeed;
+	facingLeft = false;
 }
 
 if (place_meeting(x, y-1, obj_Collision) && up) {
